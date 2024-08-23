@@ -1,0 +1,41 @@
+#header{
+    border-radius: 10px;
+    height: 50px;
+    width: auto;
+    background-color: gray;
+}
+
+#himage{
+    border-radius: 50%;
+    width: 54px;
+    height: 45px;
+    position: absolute;
+}
+
+ a{
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 9%;
+    color: red;
+}
+#imagecontainer{
+    height: 530px;
+    width: 530px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: bisque;
+    border-radius: 30px;
+    box-shadow: -20px -20px black;
+}
+
+
+.mimage{
+    box-shadow: 10px 10px 500px magenta;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+}
